@@ -18,7 +18,7 @@ import { Component, Vue } from "vue-property-decorator";
 })
 export default class App extends Vue {
   count = 0;
-  imgUrl = "/img/logo.82b9c7a5.png";
+  imgUrl = "/img/inugoya.png";
   message="ボタンを押してね";
   n1=0;
   n2=0;
@@ -62,7 +62,7 @@ export default class App extends Vue {
         }
       }
     }else{
-      this.imgUrl="/img/logo.82b9c7a5.png";
+      this.imgUrl="/img/inugoya.png";
       this.message="もっと押せ！";
       if(this.count>22){
       this.message="まだ押すの？";
